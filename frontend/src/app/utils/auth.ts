@@ -12,3 +12,4 @@ export function getToken() {
 export function logout() {
   localStorage.clear();
 }
+ 
