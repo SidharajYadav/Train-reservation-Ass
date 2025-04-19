@@ -10,7 +10,7 @@ export default function SeatsPage() {
   const [user, setUser] = useState<any>(null);
   const [token, setToken] = useState<string | null>(null);
   const router = useRouter();
-
+ 
   const loadSeats = async (authToken: string) => {
     const data = await fetchSeats(authToken);
     setSeats(data);
