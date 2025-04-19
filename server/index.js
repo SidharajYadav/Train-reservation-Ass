@@ -10,7 +10,7 @@ const port = process.env.PORT || 3001;
 
 // Database connection
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString: process.env.DATABASE_URL, 
 });
 
 // Middleware
