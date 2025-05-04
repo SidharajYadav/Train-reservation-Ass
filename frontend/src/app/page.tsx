@@ -9,4 +9,4 @@ export default function Home() {
     router.push("/login");
   }, []);
   return <p>Redirecting...</p>;
-}
+} 
