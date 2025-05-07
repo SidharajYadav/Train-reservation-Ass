@@ -18,7 +18,7 @@
 //       alert(data.error || "Login failed");
 //     }
 //   };
-//   return (
+//   return ( 
 //     <div className="max-w-md mx-auto mt-20 bg-white p-6 rounded shadow">
 //       <h1 className="text-xl font-bold mb-4">Login</h1>
 //       <form onSubmit={handleSubmit} className="space-y-4">
