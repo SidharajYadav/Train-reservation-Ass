@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"; 
 import { fetchSeats, reserveSeats, cancelSeats } from "@/app/utils/api";
 import { getUser, getToken, logout } from "@/app/utils/auth";
 import { useRouter } from "next/navigation";
