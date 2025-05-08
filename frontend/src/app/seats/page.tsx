@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { fetchSeats, reserveSeats, cancelSeats } from "@/app/utils/api";
 import { getUser, getToken, logout } from "@/app/utils/auth";
 import { useRouter } from "next/navigation";
-
+ 
 export default function SeatsPage() {
   const [seats, setSeats] = useState<any[]>([]);
   const [selected, setSelected] = useState<number[]>([]);
