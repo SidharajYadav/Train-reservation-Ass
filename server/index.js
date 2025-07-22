@@ -125,6 +125,7 @@ app.post("/api/reserve", authenticateToken, async (req, res) => {
   }
 });
 
+
 app.post("/api/cancel", authenticateToken, async (req, res) => {
   try {
     const { seatIds, userId } = req.body;
@@ -151,6 +152,7 @@ app.post("/api/cancel", authenticateToken, async (req, res) => {
     res.status(500).json({ error: "Cancellation failed" });
   }
 });
+
 
 // Initialize database and start server
 async function initializeDatabase() {
