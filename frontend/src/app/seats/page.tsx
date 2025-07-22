@@ -99,7 +99,7 @@ export default function SeatsPage() {
             </button>
           );
         })}
-      </div> */}
+      </div> */} 
       <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-3 p-4">
         {seats.map((seat) => {
           const isSelected = selected.includes(seat.id);
